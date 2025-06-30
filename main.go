@@ -8,6 +8,7 @@ import (
 	"strconv"
 
 	"github.com/conzorkingkong/conazon-email-service/types"
+
 	"github.com/joho/godotenv"
 	amqp "github.com/rabbitmq/amqp091-go"
 )

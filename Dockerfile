@@ -1,7 +1,7 @@
-FROM golang:1.22.4
+FROM golang:1.23.0
 WORKDIR /app
 COPY go.mod go.sum ./
 RUN go mod download
-COPY *.go ./
+COPY . ./
 RUN go build .
 CMD ["./conazon-email-service"]

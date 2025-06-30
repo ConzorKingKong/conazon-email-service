@@ -7,6 +7,7 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/conzorkingkong/conazon-email-service/types"
 	"github.com/joho/godotenv"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
@@ -82,7 +83,7 @@ func main() {
 	go func() {
 		for d := range msgs {
 			log.Printf("Received a message: %s", d.Body)
-			var email Email
+			var email types.Email
 			err := json.Unmarshal(d.Body, &email)
 			if err != nil {
 				log.Printf("Error unmarshalling email: %v", err)

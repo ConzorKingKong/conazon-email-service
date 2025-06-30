@@ -1,4 +1,10 @@
+github.com/conzorkingkong/conazon-checkout v0.0.0-20250630040704-b25d37a43d45 h1:po6MuMsLQ1JobRXTIzbRtaMEu9PVJx+kpUXKiK1bxJs=
+github.com/conzorkingkong/conazon-checkout v0.0.0-20250630040704-b25d37a43d45/go.mod h1:D5heEfbsGPSziCe2k4tpYyzlTJqvZruBKldaL9Xy300=
+github.com/conzorkingkong/conazon-users-and-auth v0.0.0-20250630010039-47c5183eeb98 h1:cGg35W/dOveMGJnuQ+pIZ5AmkgjhexA4DzEza7/nzJQ=
+github.com/conzorkingkong/conazon-users-and-auth v0.0.0-20250630010039-47c5183eeb98/go.mod h1:YBRqSkW/FA955p7YAvHVULm0WJoyJo8+ilh6HVKlN40=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
 github.com/rabbitmq/amqp091-go v1.10.0 h1:STpn5XsHlHGcecLmMFCtg7mqq0RnD+zFr4uzukfVhBw=
 github.com/rabbitmq/amqp091-go v1.10.0/go.mod h1:Hy4jKW5kQART1u+JkDTF9YYOQUHXqMuhrgxOEeS7G4o=
+go.uber.org/goleak v1.3.0 h1:2K3zAYmnTNqV73imy9J1T3WC+gmCePx2hEGkimedGto=
+go.uber.org/goleak v1.3.0/go.mod h1:CoHD4mav9JJNrW/WLlf7HGZPjdw8EucARQHekz1X6bE=

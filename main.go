@@ -91,7 +91,7 @@ func main() {
 			}
 
 			// get checkout ID from message body
-			sendEmail(email.User.Email, "Conazon Purchase: "+strconv.Itoa(email.Checkout.Id), "Thank you for your purchase! \n Total price: "+email.Checkout.TotalPrice+"\n Your tracking number is: "+email.Checkout.TrackingNumber)
+			sendEmail(email.User.Email, "Conazon Purchase: "+strconv.Itoa(email.Checkout.Id), "Thank you for your purchase! \n Total price: "+email.Checkout.TotalPrice)
 		}
 	}()
 
